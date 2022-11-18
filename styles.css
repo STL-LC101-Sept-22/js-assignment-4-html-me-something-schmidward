@@ -29,8 +29,10 @@ p {
 .returnAnchor {
     margin-left: 40px;
 }
-
-img {
+.verticalPhoto {
+    height: 50%;
+}
+.horizontalPhoto {
     width: 100%;
 }
 #mainHeading {
