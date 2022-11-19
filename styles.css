@@ -3,41 +3,60 @@
 html {
     min-width: 300px;
     max-width: 1200px;
+    margin: 0 auto !important;
 }
 #centered-top {
-    padding-left: 300px;
+    margin-left: 40px;
+    padding-top: 20px;
+    color: black;
 }
+
 body {
     display: block;
     margin: 8px;
-    font-family: 'Quicksand';
-    font-weight: 100;
+    
 }
 
 h1 {
     font-size: 5em;
+    margin-left: 40px;
+}
+
+#subHed {
+    font-size: 2em;
+    margin-left: 40px;
 }
 
 h2 {
     margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 3em;
 }
 
-p {
+figcaption {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.main-content {
     max-width: 900px;
-    padding-left: 110px;
-    padding-right: 110px;
-    margin-left: 40px;
-    margin-right: 40px;
+    padding-left: 9%;
+    padding-right: 9%;
+    margin: 40px;
     text-align: justify;
 }
 
 .returnAnchor {
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-left: 330px;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: center;
 }
 .verticalPhoto {
-    height: 50%;
+    width: 50%;
+    padding-left: 24%;
+    padding-right: 24%;
 }
 .horizontalPhoto {
     width: 100%;
@@ -47,4 +66,8 @@ p {
 }
 .funParagraph {
     color: green;
+}
+
+footer {
+    text-align: center;
 }
