@@ -20,11 +20,13 @@ body {
 h1 {
     font-size: 5em;
     margin-left: 40px;
+    margin-right: 40px;
 }
 
 #subHed {
     font-size: 2em;
     margin-left: 40px;
+    margin-right: 40px;
 }
 
 h2 {
